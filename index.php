@@ -6,8 +6,8 @@ $blockSize = 4;
 $chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 for($i = 0; $i < $codesQdy; $i++) {
-	$code = '';
-	$charsSize = strlen($chars) - 1;
+    $code = '';
+    $charsSize = strlen($chars) - 1;
 
     $h = str_pad(dechex($i), $codeSize / 2, 0, STR_PAD_LEFT);
     for($j = 0; $j < $codeSize; $j++) {
